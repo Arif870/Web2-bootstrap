@@ -12,6 +12,11 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script
+      src="https://kit.fontawesome.com/bf929319d1.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="./CSS/style.css" />
     <title>Bootstrap e-commerce</title>
   </head>
@@ -182,221 +187,53 @@
     </div>
     <!-- Slider End -->
 
-    <!-- Product category Start  -->
-
+    <!-- Product category section strat  -->
     <div class="container my-5">
       <h1 class="text-center">Product Category</h1>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
+      <div class="row mt-5 row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
         <div class="col">
-          <div class="card shadow bg-primary text-light">
-            <div class="d-flex align-items-center justify-content-around">
-              <h2>Fruits</h2>
-              <img style="width: 200px" src="./images/tomato.png" alt="" />
+          <div class="card bg-primary shadow">
+            <div
+              class="card-body d-flex align-items-center justify-content-between"
+            >
+              <h2 class="text-light">Vegetables</h2>
+              <img style="width: 200px" src="./images/cat-lettuse.png" alt="" />
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card shadow bg-success text-light shadow">
-            <div class="d-flex align-items-center justify-content-around">
-              <h2>Facts</h2>
-              <img style="width: 200px" src="./images/nuts.png" alt="" />
+          <div class="card bg-success shadow">
+            <div
+              class="card-body d-flex align-items-center justify-content-between"
+            >
+              <h2 class="text-light">Fruits</h2>
+              <img style="width: 200px" src="./images/cat-banana.png" alt="" />
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card shadow bg-danger text-light shadow">
-            <div class="d-flex align-items-center justify-content-around">
-              <h2>Vegetables</h2>
-              <img style="width: 200px" src="./images/potato.png" alt="" />
+          <div class="card bg-danger shadow">
+            <div
+              class="card-body d-flex align-items-center justify-content-between"
+            >
+              <h2 class="text-light">Salad</h2>
+              <img style="width: 200px" src="./images/cat-fenal.png" alt="" />
             </div>
           </div>
         </div>
         <div class="col">
-          <div class="card shadow bg-warning text-light shadow">
-            <div class="d-flex align-items-center justify-content-around">
-              <h2>Mashoroom</h2>
-              <img style="width: 200px" src="./images/mashroom.png" alt="" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Product category End  -->
-
-    <!-- Popular product start -->
-    <div class="container my-4">
-      <h1 class="text-center">Our Popular Products</h1>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-4">
-        <div class="col">
-          <div class="card">
-            <img
-              src="./images/tomato.png"
-              class="card-img-top w-75 mx-auto"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Tomato</h5>
-              <span class="text-danger">20$</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium quisquam eius mollitia vero alias autem placeat
-                eaque nam.
-              </p>
-            </div>
-            <div class="card-footer">
-              <button class="btn btn-primary d-block w-100 mt-3">
-                Order Now
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img
-              src="./images/fennal.png"
-              class="card-img-top w-75 mx-auto"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Feenal</h5>
-              <span class="text-danger">34$</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium quisquam eius mollitia vero alias autem placeat
-                eaque nam.
-              </p>
-            </div>
-            <div class="card-footer">
-              <button class="btn btn-primary d-block w-100 mt-3">
-                Order Now
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img
-              src="./images/lettuce.png"
-              class="card-img-top w-75 mx-auto"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Lettuce</h5>
-              <span class="text-danger">20$</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium quisquam eius mollitia vero alias autem placeat
-                eaque nam.
-              </p>
-            </div>
-            <div class="card-footer">
-              <button class="btn btn-primary d-block w-100 mt-3">
-                Order Now
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img
-              src="./images/mashroom.png"
-              class="card-img-top w-75 mx-auto"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Mashroom</h5>
-              <span class="text-danger">30$</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium quisquam eius mollitia vero alias autem placeat
-                eaque nam.
-              </p>
-            </div>
-            <div class="card-footer">
-              <button class="btn btn-primary d-block w-100 mt-3">
-                Order Now
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img
-              src="./images/nuts.png"
-              class="card-img-top w-75 mx-auto"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Nuts</h5>
-              <span class="text-danger">23$</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium quisquam eius mollitia vero alias autem placeat
-                eaque nam.
-              </p>
-            </div>
-            <div class="card-footer">
-              <button class="btn btn-primary d-block w-100 mt-3">
-                Order Now
-              </button>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card">
-            <img
-              src="./images/potato.png"
-              class="card-img-top w-75 mx-auto"
-              alt="..."
-            />
-            <div class="card-body">
-              <h5 class="card-title">Potato</h5>
-              <span class="text-danger">12$</span>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Praesentium quisquam eius mollitia vero alias autem placeat
-                eaque nam.
-              </p>
-            </div>
-            <div class="card-footer">
-              <button class="btn btn-primary d-block w-100 mt-3">
-                Order Now
-              </button>
+          <div class="card bg-warning shadow">
+            <div
+              class="card-body d-flex align-items-center justify-content-between"
+            >
+              <h2 class="text-light">Vegetables</h2>
+              <img style="width: 200px" src="./images/cat-tomato.png" alt="" />
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Popular product end -->
-
-    <!-- Pagination start -->
-    <div class="container my-5">
-      <nav aria-label="Page navigation example">
-        <ul class="pagination justify-content-center">
-          <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-          <li class="page-item"><a class="page-link" href="#">1</a></li>
-          <li class="page-item"><a class="page-link" href="#">2</a></li>
-          <li class="page-item"><a class="page-link" href="#">3</a></li>
-          <li class="page-item"><a class="page-link" href="#">4</a></li>
-          <li class="page-item"><a class="page-link" href="#">5</a></li>
-          <li class="page-item"><a class="page-link" href="#">Next</a></li>
-        </ul>
-      </nav>
-    </div>
-    <!-- Pagination end -->
-
-    <!-- footer section -->
-    <div class="my-4 bg-dark">
-      <p class="text-light p-4 text-center">
-        All rights reserved ! &copy; 2022
-      </p>
-    </div>
-    <!-- footer section -->
+    <!-- Product category section end  -->
 
     <!-- Bootstrap bundle -->
     <script
@@ -415,12 +252,6 @@
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-      crossorigin="anonymous"
-    ></script>
-
-    <!-- Font awesome kit  -->
-    <script
-      src="https://kit.fontawesome.com/bf929319d1.js"
       crossorigin="anonymous"
     ></script>
   </body>
